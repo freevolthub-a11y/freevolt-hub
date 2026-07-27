@@ -1726,6 +1726,158 @@ function changeHighEfficiencyGeneratorImage(thumbnail) {
 
 </script>
 
+   <!-- FREE ENERGY GENERATOR -->
+<div class="card">
+
+  <!-- PRODUCT NAME -->
+  <h3>FREE ENERGY GENERATOR</h3>
+
+  <!-- DESCRIPTION AT THE TOP -->
+  <div class="description">
+
+    <p>
+      50HZ Free Energy Generator 380V 150KW Output Alternator
+      100KW Permanent Magnet Generator With Frequency Converter
+      DIY 200KW
+    </p>
+
+  </div>
+
+
+  <!-- VIDEO COMES FIRST AFTER DESCRIPTION -->
+  <div class="product-video">
+
+    <video controls width="100%">
+      <source
+        src="uqc77bh-h265-hd.mp4"
+        type="video/mp4"
+      >
+
+      Your browser does not support video playback.
+
+    </video>
+
+  </div>
+
+
+  <!-- PRODUCT IMAGE GALLERY -->
+  <div class="product-gallery">
+
+    <!-- LARGE MAIN IMAGE -->
+    <div class="main-image-container">
+
+      <img
+        id="freeEnergyGeneratorMainImage"
+        src="WA_1785135984339.jpeg"
+        alt="FREE ENERGY GENERATOR"
+      >
+
+    </div>
+
+
+    <!-- CLICKABLE THUMBNAILS -->
+    <div class="thumbnail-container">
+
+      <!-- IMAGE 1 - MAIN IMAGE -->
+      <img
+        class="thumbnail active"
+        src="WA_1785135984339.jpeg"
+        alt="Free Energy Generator"
+        onclick="changeFreeEnergyGeneratorImage(this)"
+      >
+
+      <!-- IMAGE 2 -->
+      <img
+        class="thumbnail"
+        src="WA_1785135991098.jpeg"
+        alt="Free Energy Generator"
+        onclick="changeFreeEnergyGeneratorImage(this)"
+      >
+
+      <!-- IMAGE 3 -->
+      <img
+        class="thumbnail"
+        src="WA_1785136011168.jpeg"
+        alt="Free Energy Generator"
+        onclick="changeFreeEnergyGeneratorImage(this)"
+      >
+
+      <!-- IMAGE 4 -->
+      <img
+        class="thumbnail"
+        src="WA_1785136027198.jpeg"
+        alt="Free Energy Generator"
+        onclick="changeFreeEnergyGeneratorImage(this)"
+      >
+
+    </div>
+
+  </div>
+
+
+  <!-- PRICE -->
+  <p class="price">$6800</p>
+
+
+  <!-- BUY NOW BUTTONS -->
+  <div class="buttons">
+
+    <!-- WHATSAPP -->
+    <a
+      href="https://wa.me/17302556432?text=Hello%2C%20I%20am%20interested%20in%20the%20FREE%20ENERGY%20GENERATOR%20priced%20at%20%246800."
+      target="_blank"
+    >
+
+      <button>
+        💬 Buy Now on WhatsApp
+      </button>
+
+    </a>
+
+
+    <!-- EMAIL -->
+    <a
+      href="mailto:freevolthub@gmail.com?subject=FREE%20ENERGY%20GENERATOR%20Inquiry&body=Hello%2C%20I%20am%20interested%20in%20the%20FREE%20ENERGY%20GENERATOR%20priced%20at%20%246800."
+    >
+
+      <button>
+        ✉️ Buy Now by Email
+      </button>
+
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- JAVASCRIPT FOR CLICKABLE THUMBNAILS -->
+<script>
+
+function changeFreeEnergyGeneratorImage(thumbnail) {
+
+  // Change the large main image
+  document.getElementById(
+    "freeEnergyGeneratorMainImage"
+  ).src = thumbnail.src;
+
+  // Find thumbnails belonging to this product
+  const thumbnails = thumbnail
+    .parentElement
+    .querySelectorAll(".thumbnail");
+
+  // Remove active effect from all thumbnails
+  thumbnails.forEach(function(item) {
+    item.classList.remove("active");
+  });
+
+  // Highlight the selected thumbnail
+  thumbnail.classList.add("active");
+
+}
+
+</script>
+   
 </section>
 
 
